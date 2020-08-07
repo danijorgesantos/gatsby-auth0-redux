@@ -5,13 +5,13 @@ import thunk from 'redux-thunk';
 
 const middleware = [thunk];
 
-function reducer() {
-  //...
-}
-
 // preloadedState will be passed in by the plugin
+// export default preloadedState => {
+//   return createStore(rootReducer, composeWithDevTools(applyMiddleware(...middleware)), preloadedState);
+// };
+
 export default preloadedState => {
-  return createStore(rootReducer, composeWithDevTools(applyMiddleware(...middleware)), preloadedState);
+  return createStore(rootReducer,  preloadedState, composeWithDevTools(applyMiddleware(...middleware)));
 };
 
 
