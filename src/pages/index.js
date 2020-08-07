@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import uni from './icons/uni.svg';
+import '../app.css'
 
 export default () => (
   <div className="center-me-auth0 column">
