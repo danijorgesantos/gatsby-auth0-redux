@@ -15,6 +15,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-top-right-radius: 50px 20px;
-    border-bottom-right-radius: 50px 20px;
+    border-top-right-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
 }
