@@ -5,8 +5,8 @@ const isBrowser = typeof window !== "undefined"
 
 const auth = isBrowser
   ? new auth0.WebAuth({
-      domain: dev-se3hpoih.us.auth0.com,
-      clientID: SamWFVk8Q6Glzotm2mulxeRXa9NQ6pZa,
+      domain: 'dev-se3hpoih.us.auth0.com', // these can be public, since anyone using the page can see them either way and does not compromise security
+      clientID: 'SamWFVk8Q6Glzotm2mulxeRXa9NQ6pZa',   // these can be public, since anyone using the page can see them either way and does not compromise security
       redirectUri: process.env.AUTH0_CALLBACK,
       responseType: "token id_token",
       scope: "openid profile email",
