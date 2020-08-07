@@ -7,7 +7,7 @@ const auth = isBrowser
   ? new auth0.WebAuth({
       domain: 'dev-se3hpoih.us.auth0.com', // these can be public, since anyone using the page can see them either way and does not compromise security
       clientID: 'SamWFVk8Q6Glzotm2mulxeRXa9NQ6pZa',   // these can be public, since anyone using the page can see them either way and does not compromise security
-      redirectUri: process.env.AUTH0_CALLBACK,
+      redirectUri: 'https://reverent-dijkstra-27f01b.netlify.app/callback',
       responseType: "token id_token",
       scope: "openid profile email",
     })
