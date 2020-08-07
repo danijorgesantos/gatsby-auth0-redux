@@ -55,6 +55,7 @@ typings/
 .env
 .env.*
 !.env.EXAMPLE
+.env.development
 
 # gatsby files
 .cache/
@@ -69,3 +70,6 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+#env. keys
+
