@@ -16,14 +16,12 @@ export default function (state = initialState, action) {
 
   switch (type) {
     case GET_QRCODE_RETURN:
-      console.log('payload GET_QRCODE_RETURN reducer', payload)
       return {
         ...state,
         numberQrCodeReturn: payload,
         loading: false
       };
     case GET_QRCODE_COLLECT:
-      console.log('payload GET_QRCODE_COLLECT reducer', payload)
       return {
         ...state,
         numberQrCodeCollect: payload,
