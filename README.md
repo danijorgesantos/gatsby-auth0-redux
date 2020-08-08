@@ -25,7 +25,7 @@ and then recieves points for doing that, which can be exchanged by starbucks cof
 
 The technologies used in the application were Node.js, Gatsby, Redux, Socket.io, Ionic, Vercel, AWS and MongoDB.  
 
-## Demo website for the tablet app, use it in 1024 x 756.
+## Demo website for the tablet app ( companies and universities ), use it in 1024 x 756.
 
 https://gatsby-auth0-redux.vercel.app/account
 
