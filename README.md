@@ -4,13 +4,21 @@
 
 This app was made for the Auth0 Hackaton, the team involved in the all project ( not just this app ) was Swapil, Shammah, Daniel and Sandesh.
 
-The category we choose was the one that allowed us to solve the impacts of covid in the world. 
+The category we choose on the hackaton was the one that allowed us to solve the impacts of covid in the world. 
 
+Even though Covid helped the enviroment when emissions have fallen sharply due to the lockdown, and people bieng able to work remotely,
+there was another problem that started to manifest itself, the beaches and florests started to get cluttered with masks, alcool bottles,
+and plastic gloves.
 
+Our idea was simple, have an app where you can have rewards for returning the used masks, gloves, and alcool bottles to the right places.
 
+In the U.S, colleges and companies have been giving these items to students and employers respectively.
 
+This app is made out of two different parts, one tablet app for the recieving part ( the college or the company ) and one mobile app for the
+studens or workers at the company.
 
-
+When the student or worker wants to deliver the masks, he goes to the disposing office, points the app to a QR code to confirm the transaction,
+and then recieves points for doing that, which can be exchanged by starbucks coffees, dominos pizzas, and more.
 
 The technologies used in the application were Node.js, Gatsby, Redux, Socket.io, Ionic, Vercel, and MongoDB.  
 
