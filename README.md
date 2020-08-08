@@ -1,4 +1,4 @@
-# Auth0 Gatsby Starter
+# Auth0 Gatsby Redux
 
 ```bash
 git clone https://github.com/danijorgesantos/gatsby-auth0-redux.git
@@ -8,7 +8,7 @@ git clone https://github.com/danijorgesantos/gatsby-auth0-redux.git
 gatsby new auth0-gatsby https://github.com/danijorgesantos/gatsby-auth0-redux.git
 ```
 
-## Pre-requisites for Gatsby
+## Pre-requisites for Auth0 Gatsby Redux
 
 ### Node & NPM
 You'll need Node and npm installed on your machine to run this project. You can verify your installations by running these commands:
