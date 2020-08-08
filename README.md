@@ -48,3 +48,13 @@ If you've cloned this repository, navigate into the directory and install the np
 ```bash
 npm install
 ```
+
+## Running Auth0 Gatsby Redux
+
+### Commands
+
+Running the app in localhost:8000:
+
+```bash
+gatsby develop
+```
