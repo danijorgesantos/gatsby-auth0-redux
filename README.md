@@ -17,6 +17,8 @@ In the U.S, colleges and companies have been giving these items to students and 
 This app is made out of two different parts, one tablet app for the recieving part ( the college or the company ) and one mobile app for the
 studens or workers at the company.
 
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 When the student or worker wants to deliver the masks, he goes to the disposing office, points the app to a QR code to confirm the transaction,
 and then recieves points for doing that, which can be exchanged by starbucks coffees, dominos pizzas, and more.
 
