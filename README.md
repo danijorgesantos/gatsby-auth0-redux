@@ -1,5 +1,7 @@
 # Auth0 Gatsby Redux
 
+To get started you can:
+
 ```bash
 git clone https://github.com/danijorgesantos/gatsby-auth0-redux.git
 ```
