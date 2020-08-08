@@ -6,6 +6,14 @@ This app was made for the Auth0 Hackaton, the team involved in the all project (
 
 The category we choose was the one that allowed us to solve the impacts of covid in the world. 
 
+
+
+
+
+
+
+The technologies used in the application were Node.js, Gatsby, Redux, Socket.io, Ionic, Vercel, and MongoDB.  
+
 ## To get started you can:
 
 ```bash
