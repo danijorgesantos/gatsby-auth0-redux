@@ -23,7 +23,7 @@ studens or workers at the company.
 When the student or worker wants to deliver the masks, he goes to the disposing office, points the app to a QR code to confirm the transaction,
 and then recieves points for doing that, which can be exchanged by starbucks coffees, dominos pizzas, and more.
 
-The technologies used in the application were Node.js, Gatsby, Redux, Socket.io, Ionic, Vercel, and MongoDB.  
+The technologies used in the application were Node.js, Gatsby, Redux, Socket.io, Ionic, Vercel, AWS and MongoDB.  
 
 ## Demo website for the tablet app, use it in 1024 x 756.
 
