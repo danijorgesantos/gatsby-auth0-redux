@@ -37,7 +37,7 @@ export const getQrCodeReturn = () => async dispatch => {
 export const getUsersCount = () => async dispatch => {
   console.log('getUsersdata called action')
   try {
-    const res = await axios.get('http://recollect0.herokuapp.com/users/');
+    const res = await axios.get('https://recollect0.herokuapp.com/users/');
     dispatch({
       type: GET_USERS_COUNT,
       payload: res.data.count
