@@ -8,7 +8,7 @@ import {
 } from '../actions/types';
 
 const initialState = {
-    v: '3',
+    v: '4',
     totalItems: '0',
     returned: '0',
     alreadyTook: '0',
