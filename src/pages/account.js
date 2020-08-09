@@ -126,8 +126,8 @@
 
 // export default connect(mapStateToProps, { getQrCodeCollect })(Account);
 
-import React from "react"
-import { login, isAuthenticated, getProfile } from "../utils/auth"
+import React, { Component } from 'react';
+import { login, isAuthenticated, getProfile } from "../utils/auth";
 
 import discount from './icons/002-discount.svg';
 import collect from './icons/039-openbox.svg';
@@ -155,7 +155,25 @@ class Account extends Component {
   }
 
 
-  Account = () => {
+  // Account = () => {
+  //   if (!isAuthenticated()) {
+  //     login()
+  //     return <div>
+  //       <div class="loadingio-spinner-rolling-k8fitpcp7"><div class="ldio-inawj1mgkxk">
+  //         <div></div>
+  //       </div></div>
+  //     </div>
+  //   }
+  // }
+
+  // user = getProfile();
+
+  componentDidMount() {
+    this.props.getUsersCount();
+  }
+
+
+  render() {
     if (!isAuthenticated()) {
       login()
       return <div>
@@ -164,16 +182,9 @@ class Account extends Component {
         </div></div>
       </div>
     }
-  }
 
-  user = getProfile();
+    const user = getProfile();
 
-  componentDidMount() {
-    this.props.getUsersCount();
-  }
-
-
-  render() {
     return (
       <>
         <div>

@@ -2,7 +2,8 @@
 import axios from 'axios';
 import {
   GET_QRCODE_RETURN,
-  GET_QRCODE_COLLECT
+  GET_QRCODE_COLLECT,
+  GET_USERS_COUNT
 } from './types';
 
 // Get Qr Code number -->  collect 
