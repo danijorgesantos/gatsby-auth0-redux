@@ -32,4 +32,17 @@ export const getQrCodeReturn = () => async dispatch => {
   }
 };
 
+// Get Qr Code return number --> return
+export const getUsersCount = () => async dispatch => {
+  try {
+    const res = await axios.get('http://recollect0.herokuapp.com/users/');
+    dispatch({
+      type: GET_QRCODE_RETURN,
+      payload: res.data.count
+    });
+  } catch (err) {
+      console.log(err)
+  }
+};
+
 
