@@ -267,7 +267,7 @@ class Account extends Component {
 }
 
 const mapStateToProps = state => ({
-  numberOfUsers: state.data.numberOfUsers
+  numberOfUsers: state.dashboard.numberOfUsers
 })
 
 export default connect(mapStateToProps, { getUsersCount })(Account);
