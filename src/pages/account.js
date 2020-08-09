@@ -86,7 +86,7 @@ class Account extends Component {
                 </div>
                 <div className="text-section">
                   <h2 className="small-title">% Returned</h2>
-                  <p className="info">{Math.round(this.state.returned / this.state.total * 100)}</p>
+                  <p className="info">{'%' + ' ' + Math.round(this.state.returned / this.state.total * 100)}</p>
                 </div>
               </div>
 
