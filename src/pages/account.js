@@ -85,7 +85,7 @@ class Account extends Component {
                   <img src={discount} className="comma-logo" alt="logo" />
                 </div>
                 <div className="text-section">
-                  <h2 className="small-title">% Returned</h2>
+                  <h2 className="small-title">Percentage Returned</h2>
                   <p className="info">{'%' + ' ' + Math.round(this.state.returned / this.state.total * 100)}</p>
                 </div>
               </div>
