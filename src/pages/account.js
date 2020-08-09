@@ -176,11 +176,7 @@ class Account extends Component {
   render() {
     if (!isAuthenticated()) {
       login()
-      return <div>
-        <div class="loadingio-spinner-rolling-k8fitpcp7"><div class="ldio-inawj1mgkxk">
-          <div></div>
-        </div></div>
-      </div>
+      return <div class="center-me-auth0"><div class="loadingio-spinner-rolling-k8fitpcp7"><div class="ldio-inawj1mgkxk"><div></div></div></div></div>
     }
 
     const user = getProfile();
