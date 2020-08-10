@@ -2,6 +2,8 @@
 
 ## What is this app all about?
 
+[![IMAGE ALT TEXT HERE](https://github.com/danijorgesantos/gatsby-auth0-redux/blob/master/readme.PNG?raw=true)](https://www.youtube.com/watch?v=8Eo7Df15iqc&feature=emb_logo)
+
 ![alt text](https://github.com/danijorgesantos/gatsby-auth0-redux/blob/master/readme.PNG?raw=true)
 
 This app was made for the Auth0 Hackaton, the team involved in the all project ( not just this app ) was Swapil, Shammah, Daniel and Sandesh.
