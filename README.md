@@ -2,7 +2,7 @@
 
 ## What is this app all about?
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/watch?v=8Eo7Df15iqc&feature=emb_logo/0.jpg)](https://www.youtube.com/watch?v=8Eo7Df15iqc&feature=emb_logo)
+[![IMAGE ALT TEXT HERE](https://github.com/danijorgesantos/gatsby-auth0-redux/blob/master/readme.PNG?raw=true)](https://www.youtube.com/watch?v=8Eo7Df15iqc&feature=emb_logo)
 
 ![alt text](https://github.com/danijorgesantos/gatsby-auth0-redux/blob/master/readme.PNG?raw=true)
 
